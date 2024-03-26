@@ -1,6 +1,6 @@
 package main
 
-import "github.com/danielmesquitta/code_to_txt/cmd"
+import "github.com/danielmesquitta/txtfyer/cmd"
 
 func main() {
 	cmd.Execute()

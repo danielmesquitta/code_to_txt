@@ -1,8 +1,8 @@
-# code_to_txt CLI tool
+# txtfyer CLI tool
 
 ## Overview
 
-The code_to_txt cli tool designed to convert any codebase into a single text file. This can be particularly useful for AI model training or integration to the ChatGPT API to adhere to codebase standards or simplifying the process of code analysis and documentation.
+The txtfyer cli tool designed to convert any codebase into a single text file. This can be particularly useful for AI model training or integration to the ChatGPT API to adhere to codebase standards or simplifying the process of code analysis and documentation.
 
 ## Features
 
@@ -12,27 +12,27 @@ Command-line interface for easy integration into automation scripts.
 
 ## Installation
 
-To install code_to_txt, ensure you have Go installed on your system. Then, run the following command:
+To install txtfyer, ensure you have Go installed on your system. Then, run the following command:
 
 ```bash
-go install https://github.com/danielmesquitta/code_to_txt
+go install https://github.com/danielmesquitta/txtfyer
 ```
 
 ## Usage
 
-To use the cli tool, run the compiled binary with the "code_to_txt" command and the necessary flags.
+To use the cli tool, run the compiled binary with the "txtfyer" command and the necessary flags.
 
 Example:
 
 ```bash
-code_to_txt -p path/to/codebase
+txtfyer -p path/to/codebase
 ```
 
 ## Flags:
 
 | Shorthand | Command     | Description                                                                                                                                                   |
 | --------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| -h        | --help      | help for code_to_txt                                                                                                                                          |
+| -h        | --help      | help for txtfyer                                                                                                                                              |
 | -i        | --ignore    | strings Paths and files to ignore while converting to txt file (default [.git,.env])                                                                          |
 | -o        | --output    | string Path to the output txt file (default "output.txt")                                                                                                     |
 | -p        | --path      | string Path to the folder with code files (default "./")                                                                                                      |

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/danielmesquitta/code_to_txt/internal/usecase"
+	"github.com/danielmesquitta/txtfyer/internal/usecase"
 	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "code_to_txt",
+	Use:   "txtfyer",
 	Short: "Converts any codebase to a single text file.",
 	Long:  `Transforms codebases into single text files, suitable for AI model training or direct integration with the ChatGPT API to adhere to codebase standards.`,
 
