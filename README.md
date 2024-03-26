@@ -30,12 +30,10 @@ code_to_txt -p path/to/codebase
 
 ## Flags:
 
--h, --help help for code_to_txt
-
--i, --ignore strings Paths and files to ignore while converting to txt file (default [.git,.env])
-
--o, --output string Path to the output txt file (default "output.txt")
-
--p, --path string Path to the folder with code files (default "./")
-
--s, --separator string Separator to use between files in the output txt file, the %s will be replaced by the relative path of the file in the folder (default "=== %s ===\n")
+| Shorthand | Command     | Description                                                                                                                                                   |
+| --------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -h        | --help      | help for code_to_txt                                                                                                                                          |
+| -i        | --ignore    | strings Paths and files to ignore while converting to txt file (default [.git,.env])                                                                          |
+| -o        | --output    | string Path to the output txt file (default "output.txt")                                                                                                     |
+| -p        | --path      | string Path to the folder with code files (default "./")                                                                                                      |
+| -s        | --separator | string Separator to use between files in the output txt file, the %s will be replaced by the relative path of the file in the folder (default "=== %s ===\n") |
