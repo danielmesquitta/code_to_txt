@@ -6,9 +6,9 @@ The txtfyer cli tool designed to convert any codebase into a single text file. T
 
 ## Features
 
-Convert entire codebases to a single text file with customizable separators.
-Ignore specified files and directories to tailor the output to your needs.
-Command-line interface for easy integration into automation scripts.
+- Convert entire codebases to a single text file with customizable separators;
+- Ignore specified files and directories to tailor the output to your needs;
+- Command-line interface for easy integration into automation scripts.
 
 ## Installation
 
