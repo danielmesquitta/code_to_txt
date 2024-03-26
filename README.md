@@ -15,7 +15,7 @@ The txtfyer cli tool designed to convert any codebase into a single text file. T
 To install txtfyer, ensure you have Go installed on your system. Then, run the following command:
 
 ```bash
-go install github.com/danielmesquitta/txtfyer
+go install github.com/danielmesquitta/txtfyer@latest
 ```
 
 ## Usage
