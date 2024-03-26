@@ -15,7 +15,7 @@ Command-line interface for easy integration into automation scripts.
 To install txtfyer, ensure you have Go installed on your system. Then, run the following command:
 
 ```bash
-go install https://github.com/danielmesquitta/txtfyer
+go install github.com/danielmesquitta/txtfyer
 ```
 
 ## Usage
